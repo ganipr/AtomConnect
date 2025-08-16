@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upcoming Meetings - Atom Conferences</title>
+    <meta name="description" content="Discover all upcoming conferences and meetings at Atom Conferences. Find your next professional development opportunity.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Atom Conferences</h2>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="meetings.html" class="nav-link active">Meetings</a>
+                </li>
+                <li class="nav-item">
+                    <a href="cancellation-policy.html" class="nav-link">Cancellation Policy</a>
+                </li>
+                <li class="nav-item">
+                    <a href="privacy-policy.html" class="nav-link">Privacy Policy</a>
+                </li>
+                <li class="nav-item">
+                    <a href="terms-and-conditions.html" class="nav-link">Terms and Conditions</a>
+                </li>
+                <li class="nav-item">
+                    <a href="faq.html" class="nav-link">FAQ</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Upcoming Conferences & Meetings</h1>
+            <p>Discover transformative events that will accelerate your career and expand your network</p>
+        </div>
+    </section>
+
+    <!-- Filters -->
+    <section class="filters">
+        <div class="container">
+            <div class="filter-options">
+                <button class="filter-btn active" data-filter="all">All Events</button>
+                <button class="filter-btn" data-filter="technology">Technology</button>
+                <button class="filter-btn" data-filter="healthcare">Healthcare</button>
+                <button class="filter-btn" data-filter="business">Business</button>
+                <button class="filter-btn" data-filter="sustainability">Sustainability</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Conferences Listing -->
+    <section class="meetings-section">
+        <div class="container">
+            <div class="meetings-grid">
+                
+                <!-- Conference 1 -->
+                <div class="meeting-card" data-category="technology">
+                    <div class="meeting-image">
+                        <img src="assets/conference1.svg" alt="AI & Future of Work Conference" />
+                        <div class="meeting-status">Early Bird</div>
+                    </div>
+                    <div class="meeting-content">
+                        <h3>AI & Future of Work Summit</h3>
+                        <p class="meeting-date">September 15-17, 2025</p>
+                        <p class="meeting-venue">San Francisco Convention Center</p>
+                        <p class="meeting-desc">Join 2,000+ professionals to explore how AI is reshaping the workforce. Learn from industry pioneers, network with thought leaders, and gain actionable strategies to future-proof your career in the age of automation.</p>
+                        <div class="meeting-highlights">
+                            <span class="highlight">50+ Expert Speakers</span>
+                            <span class="highlight">Hands-on Workshops</span>
+                            <span class="highlight">Networking Sessions</span>
+                        </div>
+                        <div class="meeting-price">
+                            <span class="original-price">$899</span>
+                            <span class="current-price">$699</span>
+                            <span class="save-badge">Save $200</span>
+                        </div>
+                        <a href="contact.html" class="btn btn-primary">Register Now</a>
+                    </div>
+                </div>
+
+                <!-- Conference 2 -->
+                <div class="meeting-card" data-category="sustainability">
+                    <div class="meeting-image">
+                        <img src="assets/conference2.svg" alt="Sustainable Innovation Conference" />
+                        <div class="meeting-status">Limited Seats</div>
+                    </div>
+                    <div class="meeting-content">
+                        <h3>Sustainable Innovation Forum</h3>
+                        <p class="meeting-date">October 8-10, 2025</p>
+                        <p class="meeting-venue">Copenhagen Climate Center</p>
+                        <p class="meeting-desc">Connect with eco-innovators and sustainability leaders driving real change. Discover breakthrough technologies, successful green business models, and actionable strategies for sustainable growth.</p>
+                        <div class="meeting-highlights">
+                            <span class="highlight">Global Sustainability Leaders</span>
+                            <span class="highlight">Green Tech Showcase</span>
+                            <span class="highlight">Policy Insights</span>
+                        </div>
+                        <div class="meeting-price">
+                            <span class="current-price">$799</span>
+                        </div>
+                        <a href="contact.html" class="btn btn-primary">Register Now</a>
+                    </div>
+                </div>
+
+                <!-- Conference 3 -->
+                <div class="meeting-card" data-category="healthcare">
+                    <div class="meeting-image">
+                        <img src="assets/conference3.svg" alt="Digital Health Revolution Conference" />
+                        <div class="meeting-status">Hot Topic</div>
+                    </div>
+                    <div class="meeting-content">
+                        <h3>Digital Health Revolution</h3>
+                        <p class="meeting-date">November 12-14, 2025</p>
+                        <p class="meeting-venue">Boston Medical Center</p>
+                        <p class="meeting-desc">Explore cutting-edge healthcare technologies transforming patient care. Network with medical professionals, tech innovators, and healthcare leaders shaping the future of medicine.</p>
+                        <div class="meeting-highlights">
+                            <span class="highlight">Medical Tech Demos</span>
+                            <span class="highlight">Case Studies</span>
+                            <span class="highlight">Research Presentations</span>
+                        </div>
+                        <div class="meeting-price">
+                            <span class="current-price">$749</span>
+                        </div>
+                        <a href="contact.html" class="btn btn-primary">Register Now</a>
+                    </div>
+                </div>
+
+                <!-- Conference 4 -->
+                <div class="meeting-card" data-category="business">
+                    <div class="meeting-image">
+                        <img src="assets/conference1.svg" alt="Leadership Excellence Conference" />
+                        <div class="meeting-status">New</div>
+                    </div>
+                    <div class="meeting-content">
+                        <h3>Leadership Excellence Summit</h3>
+                        <p class="meeting-date">December 5-7, 2025</p>
+                        <p class="meeting-venue">New York Business Center</p>
+                        <p class="meeting-desc">Master the art of transformational leadership. Learn from top executives, develop your leadership style, and build the skills needed to lead in today's complex business environment.</p>
+                        <div class="meeting-highlights">
+                            <span class="highlight">C-Suite Speakers</span>
+                            <span class="highlight">Leadership Workshops</span>
+                            <span class="highlight">Executive Networking</span>
+                        </div>
+                        <div class="meeting-price">
+                            <span class="current-price">$849</span>
+                        </div>
+                        <a href="contact.html" class="btn btn-primary">Register Now</a>
+                    </div>
+                </div>
+
+                <!-- Conference 5 -->
+                <div class="meeting-card" data-category="technology">
+                    <div class="meeting-image">
+                        <img src="assets/conference2.svg" alt="Cybersecurity Excellence Conference" />
+                        <div class="meeting-status">High Demand</div>
+                    </div>
+                    <div class="meeting-content">
+                        <h3>Cybersecurity Excellence Forum</h3>
+                        <p class="meeting-date">January 20-22, 2026</p>
+                        <p class="meeting-venue">Las Vegas Tech Hub</p>
+                        <p class="meeting-desc">Stay ahead of evolving cyber threats. Connect with security experts, learn about the latest defense strategies, and discover innovative tools to protect your organization.</p>
+                        <div class="meeting-highlights">
+                            <span class="highlight">Threat Intelligence</span>
+                            <span class="highlight">Security Tools Demo</span>
+                            <span class="highlight">Expert Panels</span>
+                        </div>
+                        <div class="meeting-price">
+                            <span class="original-price">$999</span>
+                            <span class="current-price">$799</span>
+                            <span class="save-badge">Save $200</span>
+                        </div>
+                        <a href="contact.html" class="btn btn-primary">Register Now</a>
+                    </div>
+                </div>
+
+                <!-- Conference 6 -->
+                <div class="meeting-card" data-category="healthcare">
+                    <div class="meeting-image">
+                        <img src="assets/conference3.svg" alt="Mental Health Innovation Conference" />
+                        <div class="meeting-status">Coming Soon</div>
+                    </div>
+                    <div class="meeting-content">
+                        <h3>Mental Health Innovation Summit</h3>
+                        <p class="meeting-date">February 15-17, 2026</p>
+                        <p class="meeting-venue">Austin Wellness Center</p>
+                        <p class="meeting-desc">Explore innovative approaches to mental health care. Learn from leading psychologists, discover new therapeutic technologies, and network with mental health professionals.</p>
+                        <div class="meeting-highlights">
+                            <span class="highlight">Therapeutic Innovation</span>
+                            <span class="highlight">Research Findings</span>
+                            <span class="highlight">Clinical Applications</span>
+                        </div>
+                        <div class="meeting-price">
+                            <span class="current-price">$699</span>
+                        </div>
+                        <a href="contact.html" class="btn btn-primary">Register Now</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter CTA -->
+    <section class="newsletter-cta">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Never Miss a Game-Changing Event</h2>
+                <p>Get exclusive early access to new conferences, special discounts, and industry insights delivered to your inbox.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email address" required>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Atom Conferences</h3>
+                    <p>Connecting professionals across disciplines for a better tomorrow.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="meetings.html">Meetings</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="terms-and-conditions.html">Terms & Conditions</a></li>
+                        <li><a href="cancellation-policy.html">Cancellation Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Email: info@atomconferences.com</p>
+                    <p>Phone: +1 (555) 123-4567</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Atom Conferences. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+<svg width="600" height="400" viewBox="0 0 600 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="600" height="400" fill="#f8fafc"/>
+  
+  <!-- Conference Stage -->
+  <rect x="50" y="200" width="500" height="180" rx="12" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+  
+  <!-- Screen/Presentation Area -->
+  <rect x="80" y="220" width="200" height="120" rx="8" fill="#2563eb"/>
+  <text x="180" y="270" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="14" font-weight="600">ATOM</text>
+  <text x="180" y="290" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12">CONFERENCES</text>
+  
+  <!-- Podium -->
+  <rect x="300" y="280" width="60" height="80" rx="4" fill="#374151"/>
+  <circle cx="330" cy="270" r="15" fill="#fbbf24"/>
+  
+  <!-- Audience Seats -->
+  <g id="seats">
+    <!-- Row 1 -->
+    <circle cx="400" cy="300" r="8" fill="#64748b"/>
+    <circle cx="420" cy="300" r="8" fill="#64748b"/>
+    <circle cx="440" cy="300" r="8" fill="#64748b"/>
+    <circle cx="460" cy="300" r="8" fill="#64748b"/>
+    <circle cx="480" cy="300" r="8" fill="#64748b"/>
+    
+    <!-- Row 2 -->
+    <circle cx="400" cy="320" r="8" fill="#64748b"/>
+    <circle cx="420" cy="320" r="8" fill="#64748b"/>
+    <circle cx="440" cy="320" r="8" fill="#64748b"/>
+    <circle cx="460" cy="320" r="8" fill="#64748b"/>
+    <circle cx="480" cy="320" r="8" fill="#64748b"/>
+    
+    <!-- Row 3 -->
+    <circle cx="400" cy="340" r="8" fill="#64748b"/>
+    <circle cx="420" cy="340" r="8" fill="#64748b"/>
+    <circle cx="440" cy="340" r="8" fill="#64748b"/>
+    <circle cx="460" cy="340" r="8" fill="#64748b"/>
+    <circle cx="480" cy="340" r="8" fill="#64748b"/>
+  </g>
+  
+  <!-- Professional Figures -->
+  <g id="professionals">
+    <!-- Professional 1 -->
+    <circle cx="120" cy="120" r="25" fill="#fbbf24"/>
+    <rect x="110" y="145" width="20" height="30" rx="3" fill="#2563eb"/>
+    <rect x="105" y="175" width="30" height="20" rx="3" fill="#374151"/>
+    
+    <!-- Professional 2 -->
+    <circle cx="200" cy="100" r="25" fill="#ec4899"/>
+    <rect x="190" y="125" width="20" height="30" rx="3" fill="#10b981"/>
+    <rect x="185" y="155" width="30" height="20" rx="3" fill="#374151"/>
+    
+    <!-- Professional 3 -->
+    <circle cx="280" cy="110" r="25" fill="#8b5cf6"/>
+    <rect x="270" y="135" width="20" height="30" rx="3" fill="#f59e0b"/>
+    <rect x="265" y="165" width="30" height="20" rx="3" fill="#374151"/>
+    
+    <!-- Professional 4 -->
+    <circle cx="400" cy="90" r="25" fill="#06b6d4"/>
+    <rect x="390" y="115" width="20" height="30" rx="3" fill="#dc2626"/>
+    <rect x="385" y="145" width="30" height="20" rx="3" fill="#374151"/>
+    
+    <!-- Professional 5 -->
+    <circle cx="480" cy="120" r="25" fill="#84cc16"/>
+    <rect x="470" y="145" width="20" height="30" rx="3" fill="#7c3aed"/>
+    <rect x="465" y="175" width="30" height="20" rx="3" fill="#374151"/>
+  </g>
+  
+  <!-- Connection Lines -->
+  <g id="connections" stroke="#2563eb" stroke-width="2" fill="none" opacity="0.6">
+    <line x1="145" y1="120" x2="175" y2="100"/>
+    <line x1="225" y1="100" x2="255" y2="110"/>
+    <line x1="305" y1="110" x2="375" y2="90"/>
+    <line x1="425" y1="90" x2="455" y2="120"/>
+    <line x1="200" y1="125" x2="280" y2="135"/>
+    <line x1="400" y1="115" x2="480" y2="145"/>
+  </g>
+  
+  <!-- Floating Icons -->
+  <g id="floating-icons" opacity="0.8">
+    <!-- Ideas/Lightbulb -->
+    <circle cx="100" cy="50" r="12" fill="#fbbf24" opacity="0.2"/>
+    <circle cx="100" cy="50" r="6" fill="#fbbf24"/>
+    
+    <!-- Network/Globe -->
+    <circle cx="500" cy="60" r="12" fill="#10b981" opacity="0.2"/>
+    <circle cx="500" cy="60" r="6" fill="#10b981"/>
+    
+    <!-- Growth/Chart -->
+    <circle cx="350" cy="40" r="12" fill="#ec4899" opacity="0.2"/>
+    <circle cx="350" cy="40" r="6" fill="#ec4899"/>
+  </g>
+  
+  <!-- Text Elements -->
+  <text x="300" y="30" text-anchor="middle" fill="#1e293b" font-family="Arial, sans-serif" font-size="18" font-weight="700">Connecting Professionals</text>
+  <text x="300" y="380" text-anchor="middle" fill="#64748b" font-family="Arial, sans-serif" font-size="14">Across All Disciplines</text>
+</svg>
